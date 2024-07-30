@@ -93,7 +93,7 @@ experience:
   button2:
     icon: "icon-profile-fill"
     btnText: "Download My Resume"
-    URL: "https://github.com/ChyenGCY/Chenyu_CV/releases/download/CV/main.pdf"
+    URL: "https://github.com/ChyenGCY/Chenyu_CV/releases/latest/download/main.pdf"
   button3:
     icon: "icon-arrow-right"
     btnText: "All my experience"
@@ -152,4 +152,3 @@ client_and_work:
 testimonial:
   enable: false
   title: "Testimonials"
-
