@@ -1,11 +1,11 @@
 ---
-date: 2017-11-01T00:00:00+01:00
+date: 2024-08-23T00:00:00+01:00
 draft: false
-title: "Technical Lead - Emakina.NL"
-jobTitle: "Technical Lead"
-company: "Emakina.NL"
-location: "Amsterdam, The Netherlands"
-duration: "2017-2019"
+title: "Visiting Researcher"
+jobTitle: "Visiting Researcher"
+company: "KTH Royal Institute of Technology"
+location: "Stockholm, Sweden"
+duration: "Oct 2023 - Jan 2024"
 ---
 # hello
 
@@ -17,6 +17,10 @@ fdsaf
 fsadfsa
 
 sdfsadfsagsadf### this is a test
+
+fdsafsdafa
+
+Hello world!
 
 ### this is a test
 
