@@ -16,9 +16,9 @@ showcase:
   # My name is Chenyu Gu. I am an in-coming Master student to <a target='_blank' href='https://www.gatech.edu/'>Georgia Tech</a> majoring in Bio-engineering. undergraduate student majoring Intelligent Medical Engineering at Southern University of Science and Technology, where I was supervised by Prof. Mingming Zhang. Currently I am an exchange student of Electrical Engineering and Computer Science department at KTH Royal Institute of Technology.I am interested in wearable technology, human movement, and motion capture. I aspire to propel healthcare solutions through a confluence of engineering innovation and biomedical understanding.
   image:
     x: "images/chenyu.png"
-    _2x: "images/showcase/showcase@2x.png"
+    _2x: "images/chenyu.png"
   imageMobile:
-    x: "images/showcase/showcase-mobile.jpg"
+    x: "images/chenyu.png"
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"
@@ -60,7 +60,7 @@ about:
     URL: "https://www.linkedin.com/in/chenyu-gu-38337226b/"
   image:
     x: "images/sea-crop.png"
-    _2x: "images/who-am-i/user-picture@2x.png"
+    _2x: "images/sea-crop.png"
 
 # education
 education:
@@ -98,20 +98,6 @@ experience:
     icon: "icon-arrow-right"
     btnText: "All my experience"
     URL: "/experience"
-  items:
-    - title: "Movement analysis using IMU sensors"
-      affiliation: "Visiting Student in Intelligent Heart Technology Lab (I-HeaL)"
-      time: "Oct 2023 – Jan 2024"
-      description: "Extracting gait parameters and human center of mass to explore the relationship between human movement and cardiovascular function. Deploy a Kalman filter for orientation estimation and calibrate the angle and direction of the IMU. Also, develop algorithms to extract gait parameters and COM."
-    - title: "Sr. Title"
-      company: "Serious Business, Inc"
-      duration: "Feb 2011 - Sep 2019"
-    - title: "Sr. Title"
-      company: "Fancy Company, Inc"
-      duration: "Apr 2010 - Jan 2011"
-    - title: "Jr. Title"
-      company: "Company, Inc"
-      duration: "Jun 2009 - Mar 2010"
 
 # contact
 contact:
