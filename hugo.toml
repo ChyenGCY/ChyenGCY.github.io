@@ -1,6 +1,6 @@
 baseURL = "https://www.chenyugu.com"
 languageCode = "en-us"
-theme = "adritian-free-hugo-theme"
+theme = "adritian-theme"
 
 # Plugins
 [params.plugins]
