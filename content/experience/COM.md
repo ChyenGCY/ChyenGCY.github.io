@@ -1,16 +1,14 @@
 ---
-title: 'COM estimation and rehabilitation application'
-date: 2024-08-25T16:15:45-04:00
-draft: false
+title: 'Center of mass estimation and rehabilitation applications'
+date: 2024-08-26T17:33:09-04:00
+draft: true
 jobTitle: "Project assistant"
 company: "Brain-robot Rehabilitation Lab"
 location: "Shenzhen, China"
-duration: "Oct 2022 - Aug 2023"
+duration: "Oct 2022 – Aug 2023"
 ---
 
-### COM estimation and rehabilitation application
+## Center of mass estimation and rehabilitation applications
 
-#### Introduction
-
-<!--random text-->
-hello world 1 2 3
+> * Use IMU motion capture to estimate human three-dimensional center of mass for rehabilitation application.
+> * Analysis human center of mass to extract the feature of human motion and perform rehabilitation assessment.
