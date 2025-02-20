@@ -1,67 +1,85 @@
-# page title
-head:
-  title: "Chenyu Gu"
-  description: "This hugo theme (Adritian) is based on Bootstrap and has features that make it suitable for a personal site, a portfolio or other kind of Single Page Applications."
+## Looking for strings? Check the i18n folder.
 
 # showcase
 showcase:
   enable: true
-  title: "Hello, I’m Chenyu Gu."
-  subtitle: "Bio-engineering & Electrical and Computer Engineering"
-  description: >
-    <p class="lead">
-      Born in 🇨🇳 China and now pursuing my Master’s in Bio-engineering at <a target='_blank' href='https://www.gatech.edu/'>Georgia Tech</a> in 🇺🇸 Atlanta, I have a background in Intelligent Medical Engineering from <a target='_blank' href='https://www.sustech.edu.cn/en/'>Southern University of Science and Technology</a> under the guidance of Prof. Mingming Zhang. My interests lie in wearable technology, human movement, and motion capture, with experience developing IMU-based motion capture systems for healthcare applications. I am passionate about combining engineering innovation with biomedical understanding to advance healthcare solutions. This site showcases my academic and professional journey, projects, and interests.
-    </p>
-  # This is a good place to start with an introduction about yourself. Maybe a mention to the place <a target='_blank' href='https://www.adrianmoreno.info/'>where you work</a>. You can also mention where you live, your background and what's the purpose of the site. <br>You can download this theme from <a target='_blank' href='https://github.com/zetxek/adritian-free-hugo-theme'>github</a>, and see it live <a target='_blank' href="https://adritian-demo.vercel.app//">as a demo site</a> or <a target='_blank' href="https://www.adrianmoreno.info">a real one</a>.<br>You can find this content to edit in the theme.yaml file.
-  # My name is Chenyu Gu. I am an in-coming Master student to <a target='_blank' href='https://www.gatech.edu/'>Georgia Tech</a> majoring in Bio-engineering. undergraduate student majoring Intelligent Medical Engineering at Southern University of Science and Technology, where I was supervised by Prof. Mingming Zhang. Currently I am an exchange student of Electrical Engineering and Computer Science department at KTH Royal Institute of Technology.I am interested in wearable technology, human movement, and motion capture. I aspire to propel healthcare solutions through a confluence of engineering innovation and biomedical understanding.
+  # image:
+  #   x: "images/showcase/showcase.png"
+  #   _2x: "images/showcase/showcase@2x.png"
+  # imageMobile:
+  #   x: "images/showcase/showcase-mobile.jpg"
   image:
     x: "images/chenyu.png"
     _2x: "images/chenyu.png"
   imageMobile:
     x: "images/chenyu.png"
+
   button:
-    icon: "icon-mail-fill"
-    btnText: "Contact"
-    URL: "#contact"
+    icon: "icon-email"
+    URL: "https://www.chenyugu.com/"
+
   socialLinks:
     - icon: "linkedin"
       URL: "https://www.linkedin.com/in/chenyu-gu-38337226b/"
-    - icon: "github"
+
+    - icon: "square-github"
       URL: "https://github.com/ChyenGCY"
+
+    - icon: "x-twitter"
+      URL: "https://twitter.com/"
+
+    - icon: "dribbble"
+      URL: "#"
+
+    - icon: "behance"
+      URL: "#"
+
+    - icon: "youtube"
+      URL: "#"
+
     - icon: "instagram"
       URL: "https://www.instagram.com/"
-    - icon: "twitter"
-      URL: "https://twitter.com/"
-    - icon: "youtube"
-      URL: "https://www.youtube.com/"
-    - icon: "facebook"
+
+    - icon: "square-facebook"
       URL: "https://www.facebook.com/"
 
+    - icon: "codepen"
+      URL: "#"
+
+    - icon: "yelp"
+      URL: "https://www.yelp.com/"
+
+    - icon: "bluesky"
+      URL: "https://www.bluesky.com/"
+
+    - icon: "threads"
+      URL: "https://www.threads.net/"
+
+    - icon: "face-smile"
+      URL: "https://www.chenyugu.com/"
+
+    - icon: "user"
+      URL: "https://www.chenyugu.com/"
+
+    - icon: "quote-left"
+      URL: "https://www.chenyugu.com/"
+
+    - icon: "cloud-arrow-down"
+      URL: "https://www.chenyugu.com/"
+
+    - icon: "square-xing"
+      URL: "https://www.chenyugu.com/"
 # about
 about:
   enable: true
-  title: "Who am I?"
-  content: >
-    <p class="lead">
-      I am an engineer with a strong foundation in Intelligent Medical Engineering, driven by a deep fascination for technology and its potential to improve lives. My journey began with a curiosity for complex systems, which led me to disassemble devices and explore their inner workings. This passion grew through my involvement in university robotics competitions and advanced coursework in computer science and biomedical engineering.
-    </p>
-    <p class="lead">
-      My experience is a blend of technical expertise and collaborative research. I've contributed to projects like an IMU-based motion capture system for rehabilitation and led efforts to apply this technology in surgical settings. My skills in Python programming, 3D modeling, and deep learning have been crucial in these endeavors, demonstrating my ability to learn quickly and adapt to new challenges.
-    </p>
-    <p class="lead">
-      Beyond academics, I am a well-rounded individual with interests in photography, video editing, event organization, archery, and language studies. These hobbies reflect my sociable and curious nature, and they complement my technical pursuits by fostering creativity and leadership skills.
-    </p>
-    <p class="lead">
-      I am committed to deepening my understanding of Electrical and Computer Engineering through advanced studies, with the ultimate goal of contributing to innovative technological research. My approach combines a holistic vision of technology's role in health and a relentless drive to explore new frontiers in engineering.
-    </p>
   button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
+    icon: "icon-user"
     URL: "https://www.linkedin.com/in/chenyu-gu-38337226b/"
   image:
+    # x: "images/about/user-picture.png"
+    # _2x: "images/about/user-picture@2x.png"
     x: "images/sea-crop.png"
     _2x: "images/sea-crop.png"
-
 # education
 education:
   enable: true
@@ -79,63 +97,46 @@ education:
     - university: "Imperial College London"
       year: "2022"
       degree: "Summer School, Data Science"
-
 # experience
+## to hiden a button, set the icon to an empty string
 experience:
   enable: true
-  title: "Experience"
-  description: >
-    Being a researcher during the sophomore year in my undergraduate study, I design & develop interesting systems for human well-beings.
   button:
-    icon: "icon-linkedin-fill"
-    btnText: "Linkedin"
-    URL: "https://www.linkedin.com/in/chenyu-gu-38337226b/"
+    enable: true
+    icon: "icon-linkedin"
+    ## the url and text are localized, fill them in the i18n file
+    ## keys: experience_button, experience_button_url
   button2:
-    icon: "icon-profile-fill"
-    btnText: "Download My Resume"
-    URL: "https://github.com/ChyenGCY/Chenyu_CV/releases/latest/download/main.pdf"
+    enable: true
+    icon: "icon-file-pdf"
+    ## the url and text are localized, fill them in the i18n file
+    ## keys: experience_button2, experience_button_url2 
   button3:
-    icon: "icon-arrow-right"
-    btnText: "All my experience"
-    URL: "/experience"
-
-# contact
-contact:
-  enable: true
-  title: "Contact"
-  form:
-    action: "https://formspree.io/f/mvgpdkyp"
-    method: "POST"
-    full_name: "Full Name"
-    email: "Email Address"
-    message: "Type Your Message Here"
-  phone:
-    title: "Phone Number"
-    number: "+46 761578648"
-  email:
-    title: "Email"
-    email: '<a href="mailto:jokerchyen@gmail.com">jokerchyen@gmail.com</a>'
-  address:
-    title: "Address"
-    address: "Atlanta, United States"
-  button:
-    icon: "icon-mail-fill"
-    btnText: "Send Message"
-
-# newsletter
-newsletter:
-  enable: false
-  title: "Newsletter subscription"
-  success_message: "Successfully subscribed"
-  error_message: "Error while subscribing."
-  note: "We'll never share your email with anyone else."
+    enable: true
+    icon: "icon-cloud-arrow-down"
+    ## the url and text are localized, fill them in the i18n file
+    ## keys: experience_button2, experience_button_url2 
 
 # Client & Work
 client_and_work:
-  title: "Clients & Works"
   enable: false
 
 # testimonial
 testimonial:
   enable: false
-  title: "Testimonials"
+
+# contact
+contact:
+  enable: true
+  form:
+    action: "https://formspree.io/f/mvgpdkyp"
+    method: "POST"
+  button:
+    icon: "icon-email"
+
+# newsletter
+newsletter:
+  enable: true
+  form:
+    action: "/"
+    method: "GET"
