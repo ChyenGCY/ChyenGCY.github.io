@@ -1,6 +1,26 @@
-baseURL = "https://www.chenyugu.com/"
+baseURL = "https://www.chenyugu.com"
 title = "Chenyu Gu"
 languageCode = "en"
+
+ 
+[markup.goldmark.renderer]
+unsafe = true
+
+# Exclude footer section from generating list pages (index.html and index.xml)
+[outputs]
+  page = ["HTML"]
+  home = ["HTML", "RSS", "JSON"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"]
+  footer = []
+
+# Explicitly prevent the footer section from generating any output
+[outputFormats.footerSection]
+  # Empty configuration to prevent any output
+
+# Specifically disable generation of these kinds for the footer content
+disableKinds = ["footerSection", "RSS"]
 
 [module]
 [[module.imports]]
@@ -85,7 +105,10 @@ code = "GTM-XXXXX"
 enabled = false
 
 [build]
+writeStats = true
+
 [build.buildStats]
+enabledFor = ["scss"]
 disableClasses = false
 disableIDs = false
 disableTags = false
@@ -107,6 +130,10 @@ weight = 0
 
 [languages.en.menus]
 [[languages.en.menus.header]]
+name = "Home"
+URL = "/"
+weight = 1
+[[languages.en.menus.header]]
 name = 'About'
 URL = '#about'
 weight = 2
@@ -125,9 +152,21 @@ URL = "/blog"
 weight = 5
 
 [[languages.en.menus.header]]
-name = "Contact"
+pre = "email"
+name = "email"
 URL = "#contact"
 weight = 6
+
+[[languages.en.menus.header]]
+pre = "search"
+name = "Search"
+URL = "/search"
+weight = 7
+
+[[languages.en.menus.footer]]
+name = "Home"
+URL = "/"
+weight = 1
 
 [[languages.en.menus.footer]]
 name = "About"
@@ -153,6 +192,10 @@ languageName = 'Español'
 title = ''
 weight = 0
 [[languages.es.menus.header]]
+name = "INICIO"
+URL = "/es/"
+weight = 1
+[[languages.es.menus.header]]
 name = 'Sobre mi'
 URL = '/es/#about'
 weight = 2
@@ -172,9 +215,21 @@ URL = "/es/blog"
 weight = 5
 
 [[languages.es.menus.header]]
+pre = "email"
 name = "Contacto"
 URL = "/es/#contact"
 weight = 6
+
+[[languages.es.menus.header]]
+pre = "search"
+name = "Buscar"
+URL = "/search"
+weight = 7
+
+[[languages.es.menus.footer]]
+name = "INICIO"
+URL = "/"
+weight = 1
 
 [[languages.es.menus.footer]]
 name = "Sobre mi"
@@ -201,6 +256,10 @@ weight = 0
 
 [languages.fr.menus]
 [[languages.fr.menus.header]]
+name = "ACCUEIL"
+URL = "/fr/"
+weight = 1
+[[languages.fr.menus.header]]
 name = 'About'
 URL = '#about'
 weight = 2
@@ -219,9 +278,20 @@ URL = "/blog"
 weight = 5
 
 [[languages.fr.menus.header]]
+pre = "email"
 name = "Contact"
 URL = "#contact"
 weight = 6
+
+[[languages.fr.menus.header]]
+pre = "search"
+name = "Recherche"
+URL = "/search"
+weight = 7
+[[languages.fr.menus.footer]]
+name = "ACCUEIL"
+URL = "/fr/"
+weight = 1
 
 [[languages.fr.menus.footer]]
 name = "About"
@@ -285,12 +355,14 @@ mobileHeader = false
 ## by default we allow override AND automatic selection
 
 [params.blog]
-layout = "default"     # options: default, sidebar
+layout = "sidebar-right"     # options: default (no sidebar), sidebar, sidebar-right
 sidebarWidth = "25"    # percentage width of the sidebar
 showCategories = true
 showRecentPosts = true
 recentPostCount = 5
 listStyle = "summary"  # options: simple, summary
+featured_sort_by_weight = true
+featured_sort_by_date = false
 
 
 [params.experience]
