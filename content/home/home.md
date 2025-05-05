@@ -87,11 +87,11 @@ Here you could freestyle, add other shortcodes, ...  Or just let the content emp
 
 {{< spacer size="small" >}}
 
-{{< text-section
+<!-- {{< text-section
 title="Extra (centered) content"
 centered="true"
 >}}
 
 You can also use the `text-section` shortcode to add centered texts
 
-{{< /text-section >}}
+{{< /text-section >}} -->
