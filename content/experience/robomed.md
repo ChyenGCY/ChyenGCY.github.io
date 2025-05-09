@@ -9,7 +9,7 @@ duration: "Sep 2024 – Present"
 companyLogo: "images/experience/robomed.png"
 ---
 
-<!-- ## Hydraulic-Driven Steerable Guidewire for MRI-Safe Interventions   -->
+## Hydraulic-Driven Steerable Guidewire for MRI-Safe Interventions  
 **RoboMed Lab – Atlanta, United States**  
 **Graduate Research Assistant**  
 *Skills: Mechanical/Medical Device Design, CAD Modeling, Experimental Validation*

@@ -9,7 +9,7 @@ duration: "Oct 2023 – Jan 2024"
 companyLogo: "images/experience/KTH_logo_RGB_bla.png"
 ---
 
-<!-- ## IMU-Based Gait Analysis and Cardiac Synchrony   -->
+## IMU-Based Gait Analysis and Cardiac Synchrony  
 **KTH Royal Institute of Technology – Stockholm, Sweden**  
 **Research Project in Wearable Sensing and Biomechanics**  
 *Skills: Sensor Fusion, Kalman Filter, Orientation Estimation, Gait Analysis*
